@@ -18,6 +18,30 @@ class Mahasiswa {
 }
 // Membuat objek dari kelas Mahasiswa
 $mahasiswa1 = new Mahasiswa();
+
+$mahasiswa = [
+    new Mahasiswa[
+        'nama' => 'Budi',
+        'nim' => '123456789',
+        'prodi' => 'Informatika'
+    ],
+    new Mahasiswa[
+        'nama' => 'Budi',
+        'nim' => '123456789',
+        'prodi' => 'Informatika'
+    ],
+    new Mahasiswa[
+        'nama' => 'Budi',
+        'nim' => '123456789',
+        'prodi' => 'Informatika'
+    ],
+    new Mahasiswa[
+        'nama' => 'Budi',
+        'nim' => '123456789',
+        'prodi' => 'Informatika'
+    ],
+]
+
 $mahasiswa1->nama = "Budi";
 $mahasiswa1->nim = "123456789";     
 $mahasiswa1->prodi = "Informatika";
